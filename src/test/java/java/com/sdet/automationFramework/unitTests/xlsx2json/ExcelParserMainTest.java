@@ -1,6 +1,6 @@
 package java.com.sdet.automationFramework.unitTests.xlsx2json;
 
-import com.axp.automationFramework.utilities.excelManager.ExcelParserMain;
+import com.sdet.automationFramework.utilities.excelManager.ExcelParserMain;
 import org.json.JSONException;
 import org.junit.Test;
 import org.skyscreamer.jsonassert.JSONAssert;

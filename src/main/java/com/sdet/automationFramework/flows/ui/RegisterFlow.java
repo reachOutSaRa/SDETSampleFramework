@@ -1,6 +1,6 @@
 package com.sdet.automationFramework.flows.ui;
 
-import com.axp.automationFramework.page.login.RegisterPage;
+import com.sdet.automationFramework.page.login.RegisterPage;
 import org.openqa.selenium.WebDriver;
 import org.testng.asserts.SoftAssert;
 

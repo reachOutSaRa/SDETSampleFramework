@@ -8,7 +8,7 @@
 		<parameter name = "environment" value="${env}"/>
 		<classes>
 			<class name="com.axp.automationFramework.tests.WebTest"/>
-			<class name="com.axp.automationFramework.tests.RestServiceTest"/>
+			<!--<class name="com.axp.automationFramework.tests.RestServiceTest"/>-->
 		</classes>
 	</test>
 </suite>

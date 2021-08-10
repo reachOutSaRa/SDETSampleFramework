@@ -13,7 +13,7 @@
         <aspectj.version>1.9.5</aspectj.version>
         <tests.directory>src\test\resources\testSuites</tests.directory>
         <tests.xmlFiles>automationFramework\defaultRegressionSuite.xml</tests.xmlFiles>
-        <testExecution>Sauce</testExecution>
+        <testExecution>Local</testExecution>
     </properties>
 
     <dependencies>

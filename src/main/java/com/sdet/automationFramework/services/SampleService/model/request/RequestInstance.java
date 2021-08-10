@@ -1,11 +1,11 @@
 package com.sdet.automationFramework.services.SampleService.model.request;
 
-import com.axp.automationFramework.utilities.JSONData;
-import com.axp.automationFramework.utilities.JSONDataManager;
-import com.axp.automationFramework.utilities.excelManager.ExcelParserMain;
 import com.fasterxml.jackson.annotation.JsonAnyGetter;
 import com.fasterxml.jackson.annotation.JsonAnySetter;
 import com.fasterxml.jackson.annotation.JsonProperty;
+import com.sdet.automationFramework.utilities.JSONData;
+import com.sdet.automationFramework.utilities.JSONDataManager;
+import com.sdet.automationFramework.utilities.excelManager.ExcelParserMain;
 import lombok.Builder;
 import lombok.Getter;
 import lombok.Setter;

@@ -2,8 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="11b75c15-55f7-4ffc-aa22-cf0ac41b683b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sdet/automationFramework/flows/ui/MessageFlow.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sdet/automationFramework/flows/ui/MessageFlow.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sdet/automationFramework/flows/ui/RegisterFlow.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sdet/automationFramework/flows/ui/RegisterFlow.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sdet/automationFramework/services/SampleService/model/request/RequestInstance.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sdet/automationFramework/services/SampleService/model/request/RequestInstance.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sdet/automationFramework/services/SampleService/model/response/Response.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sdet/automationFramework/services/SampleService/model/response/Response.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sdet/automationFramework/utilities/excelManager/ExcelDataManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sdet/automationFramework/utilities/excelManager/ExcelDataManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/java/com/sdet/automationFramework/stepDefinitions/Hooks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/java/com/sdet/automationFramework/stepDefinitions/Hooks.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/java/com/sdet/automationFramework/stepDefinitions/WebTesting/WebTestingStepDefinition.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/java/com/sdet/automationFramework/stepDefinitions/WebTesting/WebTestingStepDefinition.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/java/com/sdet/automationFramework/unitTests/xlsx2json/ExcelParserMainTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/java/com/sdet/automationFramework/unitTests/xlsx2json/ExcelParserMainTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/java/com/sdet/automationFramework/unitTests/xlsx2json/ExcelParserTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/java/com/sdet/automationFramework/unitTests/xlsx2json/ExcelParserTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/resources/testSuites/automationFramework/defaultRegressionSuite.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/resources/testSuites/automationFramework/defaultRegressionSuite.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,6 +50,40 @@
       <recent name="S:\AutomationFramework\src\test\java" />
     </key>
   </component>
+  <component name="RunManager">
+    <configuration name="WebTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="AutomationFramework" />
+      <shortenClasspath name="MANIFEST" />
+      <useClassPathOnly />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="java.com.sdet.automationFramework.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SUITE_NAME" value="" />
+      <option name="PACKAGE_NAME" value="java.com.sdet.automationFramework.tests" />
+      <option name="MAIN_CLASS_NAME" value="java.com.sdet.automationFramework.tests.WebTest" />
+      <option name="GROUP_NAME" value="" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="PROPERTIES_FILE" value="" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG.WebTest" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -58,7 +102,14 @@
       <option name="project" value="LOCAL" />
       <updated>1628553283175</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="First changes">
+      <created>1628553905274</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1628553905274</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -66,17 +117,49 @@
     <option name="LAST_COMMIT_MESSAGE" value="First changes" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="436" y="16" key="CommitChangelistDialog2" timestamp="1628553281477">
+    <state x="487" y="98" key="#WebTest" timestamp="1628554887928">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="436" y="16" key="CommitChangelistDialog2/0.0.1536.834@0.0.1536.834" timestamp="1628553281477" />
+    <state x="487" y="98" key="#WebTest/0.0.1536.834@0.0.1536.834" timestamp="1628554887928" />
+    <state x="574" y="127" key="#com.intellij.ide.util.MemberChooser" timestamp="1628554549325">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="574" y="127" key="#com.intellij.ide.util.MemberChooser/0.0.1536.834@0.0.1536.834" timestamp="1628554549325" />
+    <state x="436" y="16" key="CommitChangelistDialog2" timestamp="1628553903748">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="436" y="16" key="CommitChangelistDialog2/0.0.1536.834@0.0.1536.834" timestamp="1628553903748" />
+    <state width="1492" height="214" key="GridCell.Tab.0.bottom" timestamp="1628554992660">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1492" height="214" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1628554992660" />
+    <state width="1492" height="214" key="GridCell.Tab.0.center" timestamp="1628554992659">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1492" height="214" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1628554992659" />
+    <state width="1492" height="214" key="GridCell.Tab.0.left" timestamp="1628554992659">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1492" height="214" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1628554992659" />
+    <state width="1492" height="214" key="GridCell.Tab.0.right" timestamp="1628554992660">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1492" height="214" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1628554992660" />
     <state x="481" y="135" key="MultipleFileMergeDialog" timestamp="1628553876254">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="481" y="135" key="MultipleFileMergeDialog/0.0.1536.834@0.0.1536.834" timestamp="1628553876254" />
-    <state x="580" y="336" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1628553862803">
+    <state x="361" y="153" key="Vcs.Push.Dialog.v2" timestamp="1628553911345">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="580" y="336" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.834@0.0.1536.834" timestamp="1628553862803" />
+    <state x="361" y="153" key="Vcs.Push.Dialog.v2/0.0.1536.834@0.0.1536.834" timestamp="1628553911345" />
+    <state x="477" y="245" key="com.intellij.ide.util.TipDialog" timestamp="1628554122826">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="477" y="245" key="com.intellij.ide.util.TipDialog/0.0.1536.834@0.0.1536.834" timestamp="1628554122826" />
+    <state x="580" y="336" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1628553925683">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="580" y="336" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.834@0.0.1536.834" timestamp="1628553925683" />
   </component>
 </project>

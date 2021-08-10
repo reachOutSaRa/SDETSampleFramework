@@ -1,10 +1,10 @@
 package com.sdet.automationFramework.services.SampleService.model.response;
 
-import com.axp.automationFramework.services.MABAllocationAlgorithm.model.request.Loop;
 import com.fasterxml.jackson.annotation.JsonAnyGetter;
 import com.fasterxml.jackson.annotation.JsonAnySetter;
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import com.fasterxml.jackson.annotation.JsonProperty;
+import com.sdet.automationFramework.services.SampleService.model.request.Loop;
 import lombok.*;
 
 import java.util.HashMap;

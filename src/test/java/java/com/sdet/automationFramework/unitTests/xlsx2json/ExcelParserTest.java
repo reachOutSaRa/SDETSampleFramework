@@ -1,6 +1,6 @@
 package java.com.sdet.automationFramework.unitTests.xlsx2json;
 
-import com.axp.automationFramework.utilities.excelManager.ExcelParser;
+import com.sdet.automationFramework.utilities.excelManager.ExcelParser;
 import org.apache.poi.ss.usermodel.Workbook;
 import org.apache.poi.ss.usermodel.WorkbookFactory;
 import org.json.JSONArray;

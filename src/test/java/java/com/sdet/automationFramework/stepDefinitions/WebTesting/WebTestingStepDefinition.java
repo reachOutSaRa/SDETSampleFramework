@@ -1,15 +1,16 @@
 package java.com.sdet.automationFramework.stepDefinitions.WebTesting;
 
-import com.axp.automationFramework.flows.ui.HomePageFlow;
-import com.axp.automationFramework.flows.ui.MessageFlow;
-import com.axp.automationFramework.flows.ui.RegisterFlow;
-import com.axp.automationFramework.utilities.BaseTest;
-import com.axp.automationFramework.utilities.EnvironmentData;
+import com.sdet.automationFramework.flows.ui.HomePageFlow;
+import com.sdet.automationFramework.flows.ui.MessageFlow;
+import com.sdet.automationFramework.flows.ui.RegisterFlow;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import org.aeonbits.owner.ConfigFactory;
 import org.openqa.selenium.WebDriver;
 import org.testng.asserts.SoftAssert;
+
+import java.com.sdet.automationFramework.utilities.BaseTest;
+import java.com.sdet.automationFramework.utilities.EnvironmentData;
 
 public class WebTestingStepDefinition extends BaseTest {
 
