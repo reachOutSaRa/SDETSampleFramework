@@ -1,3 +1,4 @@
+/*
 package com.sdet.automationFramework.services.SampleService.model.request;
 
 import com.fasterxml.jackson.annotation.JsonAnyGetter;
@@ -26,18 +27,22 @@ public class RequestInstance implements JSONData {
     @Builder.Default
     private Map<String, Object> additionalParam = new HashMap<>();
 
-    /**
+    */
+/**
      * Empty MGMPZNRequest Constructor
-     */
+     *//*
+
     public RequestInstance(){
 
     }
 
-    /**
+    */
+/**
      * MGMPZNRequest Constructor
      * @param requestDescription
      * @throws Exception
-     */
+     *//*
+
     public RequestInstance(String requestDescription) throws Exception{
 
         ExcelParserMain.main(new String[]{
@@ -56,10 +61,12 @@ public class RequestInstance implements JSONData {
         assignProperties(instance);
     }
 
-    /**
+    */
+/**
      * Assigns properties from the input JSON
      * @param request
-     */
+     *//*
+
     private void assignProperties(RequestInstance request) {
         this.dataId = request.getDataId();
         this.dataDescription = request.getDataDescription();
@@ -78,3 +85,4 @@ public class RequestInstance implements JSONData {
 
 
 }
+*/

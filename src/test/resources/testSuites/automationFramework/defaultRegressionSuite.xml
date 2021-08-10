@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="BDD Test Suites" verbose="1"
+	thread-count="1" configfailurepolicy="continue">
+	<!--<property name = "env" value = "qa">qa</property>-->
+	<test name="default Suite" annotations="JDK"
+		preserve-order="true">
+		<parameter name = "environment" value="${env}"/>
+		<classes>
+			<class name="com.axp.automationFramework.tests.WebTest"/>
+			<!--<class name="com.axp.automationFramework.tests.RestServiceTest"/>-->
+		</classes>
+	</test>
+</suite>

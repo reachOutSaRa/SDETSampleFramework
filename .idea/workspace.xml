@@ -2,18 +2,37 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="11b75c15-55f7-4ffc-aa22-cf0ac41b683b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/drivers/chromedriver.exe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/sdet/automationFramework/flows/ui/MessageFlow.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sdet/automationFramework/flows/ui/MessageFlow.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/sdet/automationFramework/flows/ui/RegisterFlow.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sdet/automationFramework/flows/ui/RegisterFlow.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/sdet/automationFramework/services/SampleService/model/request/RequestInstance.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sdet/automationFramework/services/SampleService/model/request/RequestInstance.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/sdet/automationFramework/services/SampleService/model/response/Response.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sdet/automationFramework/services/SampleService/model/response/Response.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/sdet/automationFramework/utilities/excelManager/ExcelDataManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sdet/automationFramework/utilities/excelManager/ExcelDataManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/java/com/sdet/automationFramework/stepDefinitions/Hooks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/java/com/sdet/automationFramework/stepDefinitions/Hooks.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/java/com/sdet/automationFramework/stepDefinitions/WebTesting/WebTestingStepDefinition.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/java/com/sdet/automationFramework/stepDefinitions/WebTesting/WebTestingStepDefinition.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/java/com/sdet/automationFramework/unitTests/xlsx2json/ExcelParserMainTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/java/com/sdet/automationFramework/unitTests/xlsx2json/ExcelParserMainTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/java/com/sdet/automationFramework/unitTests/xlsx2json/ExcelParserTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/java/com/sdet/automationFramework/unitTests/xlsx2json/ExcelParserTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/resources/testSuites/automationFramework/defaultRegressionSuite.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/resources/testSuites/automationFramework/defaultRegressionSuite.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/java/com/sdet/automationFramework/stepDefinitions/Hooks.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/java/com/sdet/automationFramework/stepDefinitions/RestServiceTesting/RestServiceStepDefinition.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/java/com/sdet/automationFramework/stepDefinitions/WebTesting/WebTestingStepDefinition.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/java/com/sdet/automationFramework/tests/RestServiceTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/java/com/sdet/automationFramework/tests/WebTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/java/com/sdet/automationFramework/unitTests/ApiService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/java/com/sdet/automationFramework/unitTests/ExcelToJsonConvertor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/java/com/sdet/automationFramework/unitTests/HiveJDBCConnect.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/java/com/sdet/automationFramework/unitTests/Hooks.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/java/com/sdet/automationFramework/unitTests/PortForwardingL.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/java/com/sdet/automationFramework/unitTests/RefactoredPortForwarding.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/java/com/sdet/automationFramework/unitTests/SSHConnection.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/java/com/sdet/automationFramework/unitTests/testcases/test.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/java/com/sdet/automationFramework/unitTests/testcases/test.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/java/com/sdet/automationFramework/unitTests/testcases/test1.expected.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/java/com/sdet/automationFramework/unitTests/testcases/test2.expected.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/java/com/sdet/automationFramework/unitTests/testcases/test3.expected.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/java/com/sdet/automationFramework/unitTests/testcases/test4.expected.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/java/com/sdet/automationFramework/unitTests/testcases/test5.expected.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/java/com/sdet/automationFramework/unitTests/testcases/test6.expected.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/java/com/sdet/automationFramework/unitTests/xlsx2json/ExcelParserMainTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/java/com/sdet/automationFramework/unitTests/xlsx2json/ExcelParserTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/java/com/sdet/automationFramework/utilities/BaseTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/java/com/sdet/automationFramework/utilities/EnvironmentData.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/resources/features/RestServiceTesting/RestServiceTesting.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/RestServiceTesting/RestServiceTesting.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/resources/features/WebTesting/WebTesting.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/WebTesting/WebTesting.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/resources/testSuites/automationFramework/defaultRegressionSuite.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/testSuites/automationFramework/defaultRegressionSuite.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,16 +60,39 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/com/sdet/automationFramework" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/pom.xml" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="S:\AutomationFramework\src\test" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="S:\AutomationFramework\src\main\resources\drivers" />
       <recent name="S:\AutomationFramework\src\main\java\com\sdet\automationFramework" />
       <recent name="S:\AutomationFramework\src\main\resources" />
       <recent name="S:\AutomationFramework\src\test\java" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="TestNG.WebTest (1)">
+    <configuration name="Feature: WebTesting" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/resources/features/WebTesting/WebTesting.feature" />
+      <option name="GLUE" value="java.com.sdet.automationFramework.stepDefinitions" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="AutomationFramework" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
+      <shortenClasspath name="MANIFEST" />
+      <option name="SUGGESTED_NAME" value="Feature: WebTesting" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="WebTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="AutomationFramework" />
       <shortenClasspath name="MANIFEST" />
@@ -78,8 +120,64 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="WebTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="AutomationFramework" />
+      <shortenClasspath name="MANIFEST" />
+      <useClassPathOnly />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.sdet.automationFramework.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SUITE_NAME" value="" />
+      <option name="PACKAGE_NAME" value="com.sdet.automationFramework.tests" />
+      <option name="MAIN_CLASS_NAME" value="com.sdet.automationFramework.tests.WebTest" />
+      <option name="GROUP_NAME" value="" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="PROPERTIES_FILE" value="" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WebTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="AutomationFramework" />
+      <shortenClasspath name="MANIFEST" />
+      <useClassPathOnly />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.sdet.automationFramework.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SUITE_NAME" value="" />
+      <option name="PACKAGE_NAME" value="com.sdet.automationFramework.tests" />
+      <option name="MAIN_CLASS_NAME" value="com.sdet.automationFramework.tests.WebTest" />
+      <option name="GROUP_NAME" value="" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="PROPERTIES_FILE" value="" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.WebTest (1)" />
+        <item itemvalue="Cucumber java.Feature: WebTesting" />
         <item itemvalue="TestNG.WebTest" />
       </list>
     </recent_temporary>
@@ -109,42 +207,66 @@
       <option name="project" value="LOCAL" />
       <updated>1628553905274</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="refactored">
+      <created>1628555076949</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1628555076949</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="First changes" />
-    <option name="LAST_COMMIT_MESSAGE" value="First changes" />
+    <MESSAGE value="refactored" />
+    <option name="LAST_COMMIT_MESSAGE" value="refactored" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="495" y="98" key="#Feature:_WebTesting" timestamp="1628555344937">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="495" y="98" key="#Feature:_WebTesting/0.0.1536.834@0.0.1536.834" timestamp="1628555344937" />
     <state x="487" y="98" key="#WebTest" timestamp="1628554887928">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="487" y="98" key="#WebTest/0.0.1536.834@0.0.1536.834" timestamp="1628554887928" />
-    <state x="574" y="127" key="#com.intellij.ide.util.MemberChooser" timestamp="1628554549325">
+    <state x="487" y="98" key="#WebTest_(1)" timestamp="1628557524700">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="574" y="127" key="#com.intellij.ide.util.MemberChooser/0.0.1536.834@0.0.1536.834" timestamp="1628554549325" />
-    <state x="436" y="16" key="CommitChangelistDialog2" timestamp="1628553903748">
+    <state x="487" y="98" key="#WebTest_(1)/0.0.1536.834@0.0.1536.834" timestamp="1628557524700" />
+    <state x="507" y="227" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1628556478436">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="436" y="16" key="CommitChangelistDialog2/0.0.1536.834@0.0.1536.834" timestamp="1628553903748" />
-    <state width="1492" height="214" key="GridCell.Tab.0.bottom" timestamp="1628554992660">
+    <state x="507" y="227" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.834@0.0.1536.834" timestamp="1628556478436" />
+    <state x="574" y="127" key="#com.intellij.ide.util.MemberChooser" timestamp="1628555094312">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1492" height="214" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1628554992660" />
-    <state width="1492" height="214" key="GridCell.Tab.0.center" timestamp="1628554992659">
+    <state x="574" y="127" key="#com.intellij.ide.util.MemberChooser/0.0.1536.834@0.0.1536.834" timestamp="1628555094312" />
+    <state x="598" y="112" key="#com.intellij.openapi.keymap.impl.ui.EditKeymapsDialog" timestamp="1628557348000">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1492" height="214" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1628554992659" />
-    <state width="1492" height="214" key="GridCell.Tab.0.left" timestamp="1628554992659">
+    <state x="598" y="112" key="#com.intellij.openapi.keymap.impl.ui.EditKeymapsDialog/0.0.1536.834@0.0.1536.834" timestamp="1628557348000" />
+    <state x="436" y="16" key="CommitChangelistDialog2" timestamp="1628555074480">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1492" height="214" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1628554992659" />
-    <state width="1492" height="214" key="GridCell.Tab.0.right" timestamp="1628554992660">
+    <state x="436" y="16" key="CommitChangelistDialog2/0.0.1536.834@0.0.1536.834" timestamp="1628555074480" />
+    <state width="1537" height="778" key="GridCell.Tab.0.bottom" timestamp="1628557594781">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1492" height="214" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1628554992660" />
+    <state width="1537" height="778" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1628557594781" />
+    <state width="1537" height="778" key="GridCell.Tab.0.center" timestamp="1628557594779">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1537" height="778" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1628557594779" />
+    <state width="1537" height="778" key="GridCell.Tab.0.left" timestamp="1628557594779">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1537" height="778" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1628557594779" />
+    <state width="1537" height="778" key="GridCell.Tab.0.right" timestamp="1628557594780">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1537" height="778" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1628557594780" />
     <state x="481" y="135" key="MultipleFileMergeDialog" timestamp="1628553876254">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
@@ -153,10 +275,14 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="361" y="153" key="Vcs.Push.Dialog.v2/0.0.1536.834@0.0.1536.834" timestamp="1628553911345" />
-    <state x="477" y="245" key="com.intellij.ide.util.TipDialog" timestamp="1628554122826">
+    <state x="100" y="100" width="1336" height="634" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1628555142713">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="477" y="245" key="com.intellij.ide.util.TipDialog/0.0.1536.834@0.0.1536.834" timestamp="1628554122826" />
+    <state x="100" y="100" width="1336" height="634" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1536.834@0.0.1536.834" timestamp="1628555142713" />
+    <state x="477" y="245" key="com.intellij.ide.util.TipDialog" timestamp="1628557266089">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="477" y="245" key="com.intellij.ide.util.TipDialog/0.0.1536.834@0.0.1536.834" timestamp="1628557266089" />
     <state x="580" y="336" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1628553925683">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
