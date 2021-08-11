@@ -1,22 +1,14 @@
 @FunctionalTest @known
-Feature: OysterPlus MGM Regression Suite
+Feature: REST Service Case Study TestCases - TC_001, TC_002
 
   @severity=blocker @Regression @Sanity @trail
-  Scenario: Test the response is successful for MGM request
-    Given For MGM Request "Basic_MGM_Response"
-    When Post the PZN request
-    Then Validate response "Basic_MGM_Response"
-
-  @severity=critical @Regression @Sanity
-  Scenario Outline: Test the response with eligibility flag as 1
-    Given For MGM Request "<request>"
-    #And update BR "Response_With_EligibilityFlag_As_1"
-    When Post the PZN request
-    Then Validate response "<response>"
-    Then Validate hive Variables "<hiveVariables>"
-
-
-    Examples:
-      |request              | response                            | hiveVariables                         |
-      |Basic_MGM_Response   | Response_With_EligibilityFlag_As_1  | Response_With_EligibilityFlag_As_1    |
-      |Basic_MGM_Response   | Response_With_EligibilityFlag_As_0  | Response_With_EligibilityFlag_As_0    |
+  Scenario: To verify whether application allows the admin to get access token
+    Given Call get access token api endpoint
+    Then Assert status code "200"
+    And Call login admin user api endpoint
+    Then Provide valid admin user request body
+    And Assert status code "200"
+    Then Call get admin user account details api endpoint
+    And Assert status code "200"
+    Then Call logout admin user api endpoint
+    And Assert status code "200"

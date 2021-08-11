@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="11b75c15-55f7-4ffc-aa22-cf0ac41b683b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Test Results - WebTest.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/sdet/automationFramework/services/SampleService/model/request/RequestInstance.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sdet/automationFramework/services/SampleService/model/request/RequestInstance.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/RestServiceTesting/RestServiceTesting.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/RestServiceTesting/RestServiceTesting.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/WebTesting/WebTesting.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/WebTesting/WebTesting.feature" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,7 +46,7 @@
       <recent name="S:\AutomationFramework\src\test\java" />
     </key>
   </component>
-  <component name="RunManager" selected="Cucumber java.Feature: WebTesting">
+  <component name="RunManager" selected="TestNG.RestServiceTest">
     <configuration name="Feature: WebTesting" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/resources/features/WebTesting/WebTesting.feature" />
@@ -63,6 +62,33 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RestServiceTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="AutomationFramework" />
+      <shortenClasspath name="MANIFEST" />
+      <useClassPathOnly />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.sdet.automationFramework.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SUITE_NAME" value="" />
+      <option name="PACKAGE_NAME" value="com.sdet.automationFramework.tests" />
+      <option name="MAIN_CLASS_NAME" value="com.sdet.automationFramework.tests.RestServiceTest" />
+      <option name="GROUP_NAME" value="" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="PROPERTIES_FILE" value="" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -150,6 +176,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.RestServiceTest" />
         <item itemvalue="Cucumber java.Feature: WebTesting" />
         <item itemvalue="TestNG.WebTest" />
       </list>
@@ -194,7 +221,14 @@
       <option name="project" value="LOCAL" />
       <updated>1628561418895</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="refactored">
+      <created>1628703351626</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1628703351626</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -207,6 +241,10 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="495" y="98" key="#Feature:_WebTesting/0.0.1536.834@0.0.1536.834" timestamp="1628555344937" />
+    <state x="487" y="98" key="#RestServiceTest" timestamp="1628716489217">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="487" y="98" key="#RestServiceTest/0.0.1536.834@0.0.1536.834" timestamp="1628716489217" />
     <state x="487" y="98" key="#WebTest" timestamp="1628554887928">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
@@ -223,14 +261,14 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="574" y="127" key="#com.intellij.ide.util.MemberChooser/0.0.1536.834@0.0.1536.834" timestamp="1628568555648" />
-    <state x="598" y="112" key="#com.intellij.openapi.keymap.impl.ui.EditKeymapsDialog" timestamp="1628557348000">
+    <state x="598" y="112" key="#com.intellij.openapi.keymap.impl.ui.EditKeymapsDialog" timestamp="1628705706145">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="598" y="112" key="#com.intellij.openapi.keymap.impl.ui.EditKeymapsDialog/0.0.1536.834@0.0.1536.834" timestamp="1628557348000" />
-    <state x="436" y="16" key="CommitChangelistDialog2" timestamp="1628561414766">
+    <state x="598" y="112" key="#com.intellij.openapi.keymap.impl.ui.EditKeymapsDialog/0.0.1536.834@0.0.1536.834" timestamp="1628705706145" />
+    <state x="436" y="16" key="CommitChangelistDialog2" timestamp="1628703347756">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="436" y="16" key="CommitChangelistDialog2/0.0.1536.834@0.0.1536.834" timestamp="1628561414766" />
+    <state x="436" y="16" key="CommitChangelistDialog2/0.0.1536.834@0.0.1536.834" timestamp="1628703347756" />
     <state width="1537" height="778" key="GridCell.Tab.0.bottom" timestamp="1628587194796">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
@@ -251,10 +289,14 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="481" y="135" key="MultipleFileMergeDialog/0.0.1536.834@0.0.1536.834" timestamp="1628553876254" />
-    <state x="361" y="153" key="Vcs.Push.Dialog.v2" timestamp="1628561430228">
+    <state x="562" y="142" key="RollbackChangesDialog" timestamp="1628705710662">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="361" y="153" key="Vcs.Push.Dialog.v2/0.0.1536.834@0.0.1536.834" timestamp="1628561430228" />
+    <state x="562" y="142" key="RollbackChangesDialog/0.0.1536.834@0.0.1536.834" timestamp="1628705710662" />
+    <state x="361" y="153" key="Vcs.Push.Dialog.v2" timestamp="1628703357560">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="361" y="153" key="Vcs.Push.Dialog.v2/0.0.1536.834@0.0.1536.834" timestamp="1628703357560" />
     <state x="100" y="100" width="1336" height="634" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1628555142713">
       <screen x="0" y="0" width="1536" height="834" />
     </state>

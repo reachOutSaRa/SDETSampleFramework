@@ -1,8 +1,8 @@
 @FunctionalTest @known @ui
-Feature: OysterPlus UI
+Feature: ELearning Case Study
 
   @severity=blocker @Regression @Sanity @trail
-  Scenario: Test the creation of BR by manual option
+  Scenario: Test sign up and compose message
     Given Launch ELearning UI
     And SignUp
     Then Confirm registration
