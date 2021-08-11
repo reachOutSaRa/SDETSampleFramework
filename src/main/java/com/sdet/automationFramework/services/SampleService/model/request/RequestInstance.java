@@ -28,7 +28,7 @@ public class RequestInstance implements JSONData {
     private Map<String, Object> additionalParam = new HashMap<>();
 
     */
-/**
+/*
      * Empty MGMPZNRequest Constructor
      *//*
 
@@ -37,7 +37,7 @@ public class RequestInstance implements JSONData {
     }
 
     */
-/**
+/*
      * MGMPZNRequest Constructor
      * @param requestDescription
      * @throws Exception
@@ -62,7 +62,7 @@ public class RequestInstance implements JSONData {
     }
 
     */
-/**
+/*
      * Assigns properties from the input JSON
      * @param request
      *//*
