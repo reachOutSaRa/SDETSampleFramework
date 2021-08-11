@@ -13,7 +13,7 @@ import static io.restassured.RestAssured.given;
 public class RestServiceStepDef {
 
     Response response = null;
-    String accessToken = null;
+    String accessToken;
 
     public RestServiceStepDef() throws JSchException {
 
@@ -35,14 +35,14 @@ public class RestServiceStepDef {
                 .contentType(ContentType.JSON)
                 .extract().response();
         System.out.println("Token generated successfully");
-        String jsonResponse = response.toString();
-        JsonPath responseBody = new JsonPath(jsonResponse);
-        accessToken = responseBody.get("access_token");
+
     }
 
     @Then("Get the access token")
     public void getAccessToken() {
-
+        String jsonResponse = response.toString();
+        JsonPath responseBody = new JsonPath(jsonResponse);
+        accessToken = responseBody.get("access_token");
         System.out.println("Access Token" + accessToken);
     }
 
