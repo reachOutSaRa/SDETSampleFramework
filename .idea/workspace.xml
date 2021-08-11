@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="11b75c15-55f7-4ffc-aa22-cf0ac41b683b" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test Results - WebTest.html" beforeDir="false" afterPath="$PROJECT_DIR$/Test Results - WebTest.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/RestServiceTesting/RestServiceTesting.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/RestServiceTesting/RestServiceTesting.feature" afterDir="false" />
-    </list>
+    <list default="true" id="11b75c15-55f7-4ffc-aa22-cf0ac41b683b" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -263,7 +259,14 @@
       <option name="project" value="LOCAL" />
       <updated>1628716800469</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="RestAssured Case Study">
+      <created>1628719895379</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1628719895379</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -345,10 +348,10 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="562" y="142" key="RollbackChangesDialog/0.0.1536.834@0.0.1536.834" timestamp="1628705710662" />
-    <state x="361" y="153" key="Vcs.Push.Dialog.v2" timestamp="1628716812383">
+    <state x="361" y="153" key="Vcs.Push.Dialog.v2" timestamp="1628719905783">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="361" y="153" key="Vcs.Push.Dialog.v2/0.0.1536.834@0.0.1536.834" timestamp="1628716812383" />
+    <state x="361" y="153" key="Vcs.Push.Dialog.v2/0.0.1536.834@0.0.1536.834" timestamp="1628719905783" />
     <state x="100" y="100" width="1336" height="634" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1628719577741">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
