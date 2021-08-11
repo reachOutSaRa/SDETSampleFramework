@@ -8,6 +8,13 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="ExportTestResults" outputFolder="$PROJECT_DIR$" userTempatePath="" />
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="UPDATE_TYPE" value="REBASE" />
@@ -30,6 +37,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/pom.xml" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -266,14 +274,29 @@
       <option name="project" value="LOCAL" />
       <updated>1628719895379</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Test folder">
+      <created>1628720071948</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1628720071948</updated>
+    </task>
+    <task id="LOCAL-00009" summary="refactored">
+      <created>1628720145614</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1628720145614</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="First changes" />
-    <MESSAGE value="refactored" />
     <MESSAGE value="RestAssured Case Study" />
-    <option name="LAST_COMMIT_MESSAGE" value="RestAssured Case Study" />
+    <MESSAGE value="Test folder" />
+    <MESSAGE value="refactored" />
+    <option name="LAST_COMMIT_MESSAGE" value="refactored" />
   </component>
   <component name="WindowStateProjectService">
     <state x="495" y="98" key="#Feature:_WebTesting" timestamp="1628555344937">
@@ -304,26 +327,26 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="598" y="112" key="#com.intellij.openapi.keymap.impl.ui.EditKeymapsDialog/0.0.1536.834@0.0.1536.834" timestamp="1628705706145" />
-    <state x="436" y="16" key="CommitChangelistDialog2" timestamp="1628720070417">
+    <state x="436" y="16" key="CommitChangelistDialog2" timestamp="1628720143974">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="436" y="16" key="CommitChangelistDialog2/0.0.1536.834@0.0.1536.834" timestamp="1628720070417" />
-    <state width="1537" height="778" key="GridCell.Tab.0.bottom" timestamp="1628719888428">
+    <state x="436" y="16" key="CommitChangelistDialog2/0.0.1536.834@0.0.1536.834" timestamp="1628720143974" />
+    <state width="1537" height="778" key="GridCell.Tab.0.bottom" timestamp="1628720195104">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1537" height="778" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1628719888428" />
-    <state width="1537" height="778" key="GridCell.Tab.0.center" timestamp="1628719888427">
+    <state width="1537" height="778" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1628720195104" />
+    <state width="1537" height="778" key="GridCell.Tab.0.center" timestamp="1628720195103">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1537" height="778" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1628719888427" />
-    <state width="1537" height="778" key="GridCell.Tab.0.left" timestamp="1628719888427">
+    <state width="1537" height="778" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1628720195103" />
+    <state width="1537" height="778" key="GridCell.Tab.0.left" timestamp="1628720195103">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1537" height="778" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1628719888427" />
-    <state width="1537" height="778" key="GridCell.Tab.0.right" timestamp="1628719888428">
+    <state width="1537" height="778" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1628720195103" />
+    <state width="1537" height="778" key="GridCell.Tab.0.right" timestamp="1628720195104">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1537" height="778" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1628719888428" />
+    <state width="1537" height="778" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1628720195104" />
     <state width="1492" height="332" key="GridCell.Tab.1.bottom" timestamp="1628719747863">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
@@ -348,10 +371,14 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="562" y="142" key="RollbackChangesDialog/0.0.1536.834@0.0.1536.834" timestamp="1628705710662" />
-    <state x="361" y="153" key="Vcs.Push.Dialog.v2" timestamp="1628720079109">
+    <state x="279" y="63" key="SettingsEditor" timestamp="1628720219682">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="361" y="153" key="Vcs.Push.Dialog.v2/0.0.1536.834@0.0.1536.834" timestamp="1628720079109" />
+    <state x="279" y="63" key="SettingsEditor/0.0.1536.834@0.0.1536.834" timestamp="1628720219682" />
+    <state x="361" y="153" key="Vcs.Push.Dialog.v2" timestamp="1628720155310">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="361" y="153" key="Vcs.Push.Dialog.v2/0.0.1536.834@0.0.1536.834" timestamp="1628720155310" />
     <state x="100" y="100" width="1336" height="634" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1628719577741">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
