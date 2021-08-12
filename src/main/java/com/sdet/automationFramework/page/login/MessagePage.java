@@ -37,11 +37,11 @@ public class MessagePage {
         page.enterTextInField(subjectInputBox,subject);
     }
 
-/*    public void enterMessageBody(String message){
-        page.clickOnElement(messageFrame);
-        page.enterTextInField(messageFrame,message);
-    }*/
+    public void enterMessageBody(String message){
+       // page.clickOnElement(messageFrame);
+        page.enterTextInsideFrame(messageFrame,message);
 
+}
     public void clickSendMessageButton(){
         page.clickOnElement(sendMessageButton);
     }

@@ -41,8 +41,7 @@ public class RestServiceStepDef {
 
     @Then("Get the access token")
     public void getAccessToken() {
-        String jsonResponse = response.asString();
-        JsonPath responseBody = new JsonPath(jsonResponse);
+        JsonPath responseBody = new JsonPath(response.asString());
         accessToken = responseBody.get("access_token");
         System.out.println("Access Token " + accessToken);
     }

@@ -22,7 +22,7 @@ public class MessageFlow {
         messagePage.clickComposeMessage();
         messagePage.enterSendTo("naveen");
         messagePage.enterSubject("Test");
-       // messagePage.enterMessageBody("Test Automation Trail");
+        messagePage.enterMessageBody("Test Automation Trail");
         messagePage.clickSendMessageButton();
     }
 

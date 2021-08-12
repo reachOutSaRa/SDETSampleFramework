@@ -281,6 +281,12 @@ public class BasePage {
         }
     }
 
+    public void enterTextInsideFrame(By element, String value){
+        driver.switchTo().frame(driver.findElement(By.tagName("iframe")));
+        driver.findElement(element).sendKeys(value);
+        driver.switchTo().defaultContent();
+    }
+
     /**
      * Select radiobutton web Element
      * @param radioXPath

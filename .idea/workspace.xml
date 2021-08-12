@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="11b75c15-55f7-4ffc-aa22-cf0ac41b683b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/sdet/automationFramework/tests/RestTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sdet/automationFramework/flows/ui/MessageFlow.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sdet/automationFramework/flows/ui/MessageFlow.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sdet/automationFramework/page/login/MessagePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sdet/automationFramework/page/login/MessagePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sdet/automationFramework/utilities/BasePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sdet/automationFramework/utilities/BasePage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/sdet/automationFramework/stepDef/RestServiceTesting/RestServiceStepDef.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/sdet/automationFramework/stepDef/RestServiceTesting/RestServiceStepDef.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -53,7 +57,7 @@
       <recent name="S:\AutomationFramework\src\test\java" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.RestServiceTest">
+  <component name="RunManager" selected="TestNG.WebTest (1)">
     <configuration name="Feature: WebTesting" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/resources/features/WebTesting/WebTesting.feature" />
@@ -210,8 +214,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.RestServiceTest" />
         <item itemvalue="TestNG.WebTest (1)" />
+        <item itemvalue="TestNG.RestServiceTest" />
         <item itemvalue="Cucumber java.Feature: WebTesting" />
         <item itemvalue="TestNG.WebTest" />
       </list>
@@ -312,7 +316,14 @@
       <option name="project" value="LOCAL" />
       <updated>1628721309406</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="refactored">
+      <created>1628721921786</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1628721921786</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -351,42 +362,42 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="598" y="112" key="#com.intellij.openapi.keymap.impl.ui.EditKeymapsDialog/0.0.1536.834@0.0.1536.834" timestamp="1628705706145" />
-    <state x="436" y="16" key="CommitChangelistDialog2" timestamp="1628721299159">
+    <state x="436" y="16" key="CommitChangelistDialog2" timestamp="1628721919565">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="436" y="16" key="CommitChangelistDialog2/0.0.1536.834@0.0.1536.834" timestamp="1628721299159" />
-    <state width="1492" height="332" key="GridCell.Tab.0.bottom" timestamp="1628721716817">
+    <state x="436" y="16" key="CommitChangelistDialog2/0.0.1536.834@0.0.1536.834" timestamp="1628721919565" />
+    <state width="1492" height="279" key="GridCell.Tab.0.bottom" timestamp="1628755137210">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1492" height="332" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1628721716817" />
-    <state width="1492" height="332" key="GridCell.Tab.0.center" timestamp="1628721716817">
+    <state width="1492" height="279" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1628755137210" />
+    <state width="1492" height="279" key="GridCell.Tab.0.center" timestamp="1628755137209">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1492" height="332" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1628721716817" />
-    <state width="1492" height="332" key="GridCell.Tab.0.left" timestamp="1628721716816">
+    <state width="1492" height="279" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1628755137209" />
+    <state width="1492" height="279" key="GridCell.Tab.0.left" timestamp="1628755137209">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1492" height="332" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1628721716816" />
-    <state width="1492" height="332" key="GridCell.Tab.0.right" timestamp="1628721716817">
+    <state width="1492" height="279" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1628755137209" />
+    <state width="1492" height="279" key="GridCell.Tab.0.right" timestamp="1628755137209">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1492" height="332" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1628721716817" />
-    <state width="1492" height="350" key="GridCell.Tab.1.bottom" timestamp="1628721638810">
+    <state width="1492" height="279" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1628755137209" />
+    <state width="1492" height="20" key="GridCell.Tab.1.bottom" timestamp="1628755039553">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1492" height="350" key="GridCell.Tab.1.bottom/0.0.1536.834@0.0.1536.834" timestamp="1628721638810" />
-    <state width="1492" height="350" key="GridCell.Tab.1.center" timestamp="1628721638810">
+    <state width="1492" height="20" key="GridCell.Tab.1.bottom/0.0.1536.834@0.0.1536.834" timestamp="1628755039553" />
+    <state width="1492" height="20" key="GridCell.Tab.1.center" timestamp="1628755039553">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1492" height="350" key="GridCell.Tab.1.center/0.0.1536.834@0.0.1536.834" timestamp="1628721638810" />
-    <state width="1492" height="350" key="GridCell.Tab.1.left" timestamp="1628721638809">
+    <state width="1492" height="20" key="GridCell.Tab.1.center/0.0.1536.834@0.0.1536.834" timestamp="1628755039553" />
+    <state width="1492" height="20" key="GridCell.Tab.1.left" timestamp="1628755039553">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1492" height="350" key="GridCell.Tab.1.left/0.0.1536.834@0.0.1536.834" timestamp="1628721638809" />
-    <state width="1492" height="350" key="GridCell.Tab.1.right" timestamp="1628721638810">
+    <state width="1492" height="20" key="GridCell.Tab.1.left/0.0.1536.834@0.0.1536.834" timestamp="1628755039553" />
+    <state width="1492" height="20" key="GridCell.Tab.1.right" timestamp="1628755039553">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1492" height="350" key="GridCell.Tab.1.right/0.0.1536.834@0.0.1536.834" timestamp="1628721638810" />
+    <state width="1492" height="20" key="GridCell.Tab.1.right/0.0.1536.834@0.0.1536.834" timestamp="1628755039553" />
     <state x="481" y="135" key="MultipleFileMergeDialog" timestamp="1628553876254">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
@@ -432,19 +443,14 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/com/sdet/automationFramework/stepDef/RestServiceTesting/RestServiceStepDef.java</url>
-          <line>62</line>
-          <option name="timeStamp" value="2" />
+          <url>file://$PROJECT_DIR$/src/test/java/com/sdet/automationFramework/stepDef/WebTesting/WebTestingStepDef.java</url>
+          <line>58</line>
+          <option name="timeStamp" value="7" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/com/sdet/automationFramework/stepDef/RestServiceTesting/RestServiceStepDef.java</url>
-          <line>46</line>
-          <option name="timeStamp" value="4" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/com/sdet/automationFramework/stepDef/RestServiceTesting/RestServiceStepDef.java</url>
-          <line>51</line>
-          <option name="timeStamp" value="5" />
+          <url>file://$PROJECT_DIR$/src/main/java/com/sdet/automationFramework/flows/ui/MessageFlow.java</url>
+          <line>24</line>
+          <option name="timeStamp" value="8" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
