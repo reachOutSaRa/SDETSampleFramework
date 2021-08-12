@@ -3,9 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="11b75c15-55f7-4ffc-aa22-cf0ac41b683b" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/sdet/automationFramework/page/login/MessagePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sdet/automationFramework/page/login/MessagePage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/sdet/automationFramework/utilities/BasePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sdet/automationFramework/utilities/BasePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/sdet/automationFramework/tests/RestTest.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,7 +53,7 @@
       <recent name="S:\AutomationFramework\src\test\java" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.WebTest (1)">
+  <component name="RunManager" selected="Substeps Feature.WebTesting.feature">
     <configuration name="Feature: WebTesting" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/resources/features/WebTesting/WebTesting.feature" />
@@ -237,6 +235,43 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="WebTesting.feature" type="substepsFeature" factoryName="Substeps Feature" show_console_on_std_err="false" show_console_on_std_out="false">
+      <module name="" />
+      <option name="allowRunningInParallel" value="false" />
+      <option name="model">
+        <SubstepsRunnerConfigurationModel>
+          <option name="classPathString" />
+          <option name="homePath" />
+          <option name="modulePath" value="$PROJECT_DIR$/AutomationFramework.iml" />
+          <option name="myListener" />
+          <option name="nonStrictKeywordPrecedence" />
+          <option name="pathToFeature" value="$PROJECT_DIR$/src/test/resources/features/WebTesting/WebTesting.feature" />
+          <option name="scenarioName" />
+          <option name="stepImplentationClassNames" />
+          <option name="strict" value="false" />
+          <option name="subStepDefinitionDirectory" />
+          <option name="tags" />
+          <option name="versionString" />
+          <option name="workingDir" value="$PROJECT_DIR$" />
+        </SubstepsRunnerConfigurationModel>
+      </option>
+      <option name="classPathString" />
+      <option name="homePath" />
+      <option name="modulePath" value="$PROJECT_DIR$/AutomationFramework.iml" />
+      <option name="myListener" />
+      <option name="nonStrictKeywordPrecedence" />
+      <option name="pathToFeature" value="$PROJECT_DIR$/src/test/resources/features/WebTesting/WebTesting.feature" />
+      <option name="scenarioName" />
+      <option name="stepImplentationClassNames" />
+      <option name="strict" value="false" />
+      <option name="subStepDefinitionDirectory" />
+      <option name="tags" />
+      <option name="versionString" />
+      <option name="workingDir" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="TestNG.WebTest (1)" />
@@ -354,7 +389,14 @@
       <option name="project" value="LOCAL" />
       <updated>1628755172587</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="refactored">
+      <created>1628762049580</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1628762049580</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -381,6 +423,10 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="487" y="98" key="#WebTest_(1)/0.0.1536.834@0.0.1536.834" timestamp="1628757985970" />
+    <state x="503" y="157" key="#WebTesting.feature" timestamp="1628762335596">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="503" y="157" key="#WebTesting.feature/0.0.1536.834@0.0.1536.834" timestamp="1628762335596" />
     <state x="507" y="227" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1628556478436">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
@@ -397,26 +443,26 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="449" y="156" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1536.834@0.0.1536.834" timestamp="1628757321745" />
-    <state x="436" y="16" key="CommitChangelistDialog2" timestamp="1628755157205">
+    <state x="436" y="16" key="CommitChangelistDialog2" timestamp="1628762043974">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="436" y="16" key="CommitChangelistDialog2/0.0.1536.834@0.0.1536.834" timestamp="1628755157205" />
-    <state width="1492" height="282" key="GridCell.Tab.0.bottom" timestamp="1628761968941">
+    <state x="436" y="16" key="CommitChangelistDialog2/0.0.1536.834@0.0.1536.834" timestamp="1628762043974" />
+    <state width="1492" height="324" key="GridCell.Tab.0.bottom" timestamp="1628762497415">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1492" height="282" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1628761968941" />
-    <state width="1492" height="282" key="GridCell.Tab.0.center" timestamp="1628761968941">
+    <state width="1492" height="324" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1628762497415" />
+    <state width="1492" height="324" key="GridCell.Tab.0.center" timestamp="1628762497415">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1492" height="282" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1628761968941" />
-    <state width="1492" height="282" key="GridCell.Tab.0.left" timestamp="1628761968940">
+    <state width="1492" height="324" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1628762497415" />
+    <state width="1492" height="324" key="GridCell.Tab.0.left" timestamp="1628762497415">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1492" height="282" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1628761968940" />
-    <state width="1492" height="282" key="GridCell.Tab.0.right" timestamp="1628761968941">
+    <state width="1492" height="324" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1628762497415" />
+    <state width="1492" height="324" key="GridCell.Tab.0.right" timestamp="1628762497415">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1492" height="282" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1628761968941" />
+    <state width="1492" height="324" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1628762497415" />
     <state width="1492" height="344" key="GridCell.Tab.1.bottom" timestamp="1628760287545">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
@@ -489,12 +535,12 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/sdet/automationFramework/utilities/BasePage.java</url>
-          <line>292</line>
+          <line>293</line>
           <option name="timeStamp" value="9" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/sdet/automationFramework/utilities/BasePage.java</url>
-          <line>294</line>
+          <line>295</line>
           <option name="timeStamp" value="11" />
         </line-breakpoint>
       </breakpoints>

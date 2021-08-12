@@ -284,14 +284,15 @@ public class BasePage {
     public void enterTextInFrameByTagName(By frame, By element, String value){
 
 
-       driver.manage().timeouts().implicitlyWait(10,TimeUnit.SECONDS);
+        driver.manage().timeouts().implicitlyWait(30,TimeUnit.SECONDS);
         driver.switchTo().frame(driver.findElement(frame));
 
+        waitTillPageLoad();
         new WebDriverWait(driver, waitTimeOut)
                 .until(ExpectedConditions.visibilityOf((driver.findElement(element))));
 
         WebElement we = driver.findElement(element);
-      new Actions(driver).moveToElement(we).click().build().perform();
+        new Actions(driver).moveToElement(we).click().build().perform();
         new Actions(driver).moveToElement(we).click().sendKeys(value).build().perform();
         driver.switchTo().defaultContent();
 
