@@ -4,7 +4,7 @@ import com.sdet.automationFramework.utilities.BasePage;
 import org.mortbay.jetty.SessionManager;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
 
 public class MessagePage {
 
@@ -15,7 +15,8 @@ public class MessagePage {
     private By sendToInputBox = By.xpath("//input[@class='select2-search__field']");
     private String firstListName = "//ul/li[contains(text(),'%s')]";
     private By subjectInputBox = By.xpath("//input[@id='compose_message_title']");
-    private By messageFrame = By.xpath("//body/p");
+    private By iframe = By.tagName("iframe");
+    private By messageBody = By.xpath("//body[@contenteditable='true']");
     private By sendMessageButton = By.xpath("//button[@id='compose_message_compose']");
     private By alertMessage = By.xpath("//div[@class='alert alert-success']");
 
@@ -38,8 +39,8 @@ public class MessagePage {
     }
 
     public void enterMessageBody(String message){
-       // page.clickOnElement(messageFrame);
-        page.enterTextInsideFrame(messageFrame,message);
+
+        page.enterTextInFrameByTagName(iframe,messageBody,message);
 
 }
     public void clickSendMessageButton(){
@@ -49,4 +50,17 @@ public class MessagePage {
     public String getAlertMessage(){
         return page.getTextOfWebElement(alertMessage);
     }
+
+
+ /*   public static void main(String args[]){
+        System.setProperty("webdriver.chrome.driver","src/main/resources/drivers/chromedriver.exe");
+
+        ChromeOptions opt=new ChromeOptions();
+
+        opt.setExperimentalOption("debuggerAddress","localhost:9222 ");
+
+        WebDriver driver=new ChromeDriver(opt);
+
+        driver.get("http://facebook.com");
+    }*/
 }

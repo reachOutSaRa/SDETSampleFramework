@@ -281,10 +281,20 @@ public class BasePage {
         }
     }
 
-    public void enterTextInsideFrame(By element, String value){
-        driver.switchTo().frame(driver.findElement(By.tagName("iframe")));
-        driver.findElement(element).sendKeys(value);
+    public void enterTextInFrameByTagName(By frame, By element, String value){
+
+
+       driver.manage().timeouts().implicitlyWait(10,TimeUnit.SECONDS);
+        driver.switchTo().frame(driver.findElement(frame));
+
+        new WebDriverWait(driver, waitTimeOut)
+                .until(ExpectedConditions.visibilityOf((driver.findElement(element))));
+
+        WebElement we = driver.findElement(element);
+      new Actions(driver).moveToElement(we).click().build().perform();
+        new Actions(driver).moveToElement(we).click().sendKeys(value).build().perform();
         driver.switchTo().defaultContent();
+
     }
 
     /**
